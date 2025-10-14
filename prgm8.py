@@ -1,0 +1,5 @@
+a=int(input("Enter 1st number(a):"))
+b=int(input("Enter 2nd number(b):"))
+print("After swappimg:")
+print("a =",b)
+print("b =",a)
