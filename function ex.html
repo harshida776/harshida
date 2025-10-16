@@ -1,29 +1,38 @@
 <html>
-<head><title>form example</title></head>
-<body><center>
-<h1>Form Function</h1>
+<head><title>form</title><head>
+<body bgcolor="lightyellow">
+<center>
+<h1>REGISTRATION FORM<h1></center>
 <form>
-<label>Name:</label>
-<input type="text" name="name">
-<br><br>
-<label>Address:</label>
-<input type="address" name="address">
-<br><br>
-<label>Email</label>
-<input type="email" name="email">
-<br><br>
-<label>Password:</label>
-<input type="password" name="pswd">
-<br><br>
-<label>Mobile:</label>
-<input type="text" name="mob" value="+91" size="2">
-<input type="text" name="numb" maxlength="10">
-<br><br>
-<label>Nationality:</label>
-<input type="email" name="email">
-<br><br>
-<input type="submit" name="submit" value="submit">
-</form>
-</center>
+<label><b>Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></label>
+<input type="text" name="name"/><br><br>
+<label><b>Password:&nbsp</b></label>
+<input type="password" name="password"/><br><br>
+<label><b>Mobile No:</b></label>
+<input type="text" value="+91"size="1"/><input type="text" maxlength="10"/><br><br>
+<label><b>Address:&nbsp&nbsp&nbsp&nbsp</b></label>
+<textarea name="address"></textarea><br><br>
+<label><b>D.O.B:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></label>
+<input type="date" name="age"><br><br>
+<label><b>Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></label>
+<input type="text" name="email"/><br><br>
+<label><b>Nationality</b></label>
+<select>
+<option>Indian</option>
+<option>American</option>
+<option>Canadian</option>
+<option>Pakistani</option>
+<option>Nepali</option>
+</select><br><br>
+<label><b>Gender:</b></label><br><br>
+<input type="radio" id="male" name="Gender" value="Male"><label>Male</label>
+<input type="radio" id="Female" name="Gender" value="Female"><label>Female</label>
+<input type="radio" id="Other" name="Gender" value="Other"><label>Other</label><br><br>
+<fieldset><legend><b>Language known:</b></legend><br><br>
+<input type="checkbox"><label>Malayalam</label><br><br>
+<input type="checkbox"><label>English</label><br><br>
+<input type="checkbox"><label>Hindi</label>
+</fieldset><br><br>
+<button type="clear">Clear</button><button type="submit">Submit</button></form>
 </body>
 </html>
